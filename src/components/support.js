@@ -27,7 +27,7 @@ const Support = () => {
             fugiat mollitia, molestiae
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
+        <div className="grid grid-cols-1 md:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
           <div className="bg-white rounded-xl shadow-2xl ">
             <div className="p-8">
               <PhoneIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
@@ -39,9 +39,17 @@ const Support = () => {
                 quisquam eius sed odit fugiat iusto
               </p>
             </div>
-            <div>
+          </div>
+          <div className="bg-white rounded-xl shadow-2xl ">
+            <div className="p-6">
+              <ArrowSmRightIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
+              <h3>Contact Us</h3>
               <p>
-                contact Us <ArrowSmRightIcon />
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto
               </p>
             </div>
           </div>
