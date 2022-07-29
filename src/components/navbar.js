@@ -25,7 +25,7 @@ const Navbar = () => {
           <button className="px-6 py-2">Sign up</button>
         </div>
         {/* dropdown menu */}
-        <div className="md:hidden" onClick={toggleBtn}>
+        <div className="md:hidden mr-4" onClick={toggleBtn}>
           {!dropdown ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
         </div>
       </div>
