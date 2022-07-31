@@ -20,7 +20,7 @@ const Support = () => {
           <h3 className="text-3xl md:text-4xl font-bold py-6 text-center">
             Finding the right team
           </h3>
-          <p className="py-4 text-3xl text-slate-300">
+          <p className="py-4 text-2xl sm:text-3xl text-slate-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             mollitia, molestiae quas vel sint commodi repudiandae consequuntur
             voluptatum laborum numquam blanditiis harum quisquam eius sed odit
