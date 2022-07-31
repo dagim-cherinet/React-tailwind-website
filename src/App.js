@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Support from "./components/support";
 import AllInOne from "./components/all_inOne";
 import Pricing from "./components/pricing";
+import Footer from "./components/footer";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Support />
       <AllInOne />
       <Pricing />
+      <Footer />
     </>
   );
 }
