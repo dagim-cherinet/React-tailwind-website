@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div className="w-full mt-12 bg-slate-900 text-gray-300 py-4 px-2">
-      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600">
+      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 pb-4 border-b-2 border-gray-600">
         <div>
           <h6 className="font-bold uppercase pt-2">Solutions</h6>
           <ul>
@@ -57,7 +57,7 @@ const Footer = () => {
           </p>
           <form className="flex flex-col sm:flex-row">
             <input
-              className="w-full p-2 mr-4 rounded-md mb-4"
+              className="w-full p-2 mr-4 rounded-md mb-4 outline-none text-black"
               type="email"
               placeholder="Enter email"
             />
